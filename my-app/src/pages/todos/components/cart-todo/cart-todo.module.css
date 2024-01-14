@@ -1,0 +1,36 @@
+.wrapperAtWork{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperPostpone{
+    padding: 5px;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    background-color: rgb(223, 221, 221);
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperDone{
+    padding: 5px;
+    border: 2px solid rgb(0, 124, 10);
+    border-radius: 5px;
+    background-color: rgb(195, 236, 195);
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperControlboard{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.itemControl{
+    color: grey;
+    font-size: large;
+}

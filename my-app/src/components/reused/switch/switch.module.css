@@ -1,0 +1,64 @@
+.wrapper{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 200px;
+}
+
+.switchOn{
+    padding: 8px;
+    width: 20px; 
+    background-color: rgb(126, 247, 110);
+    border: 2px solid #505050;
+    border-radius: 10px;
+    transition: background-color .5s, border .5s;
+    position: relative;
+}
+
+.switchOff{
+    padding: 8px;
+    width: 20px;    
+    background-color: rgb(179, 179, 179);
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    transition: background-color .5s, border .5s;
+    position: relative;
+    
+}
+
+.circleOn{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    transition: left .5s;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+.circleOff{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    transition: left .5s;
+    position: absolute;
+    top: 2px;
+    left: 20px;
+}
+
+.labelOn{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    transform: all .5s;
+}
+
+.labelOff{
+    color: rgb(83, 83, 83);
+    font-size: 1rem;
+    font-weight: 300;
+    transform: all .5s;
+}

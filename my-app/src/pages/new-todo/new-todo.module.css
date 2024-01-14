@@ -1,0 +1,22 @@
+.wrapper{    
+    padding-left: 20px
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.textArea{
+    font-size: large;
+}
+
+@media (max-width: 730px){
+    .wrapper{
+        padding-left: 0px
+    }  
+  }
+  
